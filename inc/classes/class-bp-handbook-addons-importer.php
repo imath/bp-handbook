@@ -8,7 +8,7 @@ class BP_Handbook_Addons_Importer extends BP_Handbook_Importer {
 		parent::do_init(
 			'add-ons',
 			'add-ons',
-			'https://raw.githubusercontent.com/imath/buddypress/patch/8897/docs/developer/manifest.json'
+			'https://raw.githubusercontent.com/buddypress/buddypress/master/docs/developer/manifest.json'
 		);
 
 		add_filter( 'handbook_label', array( $this, 'change_handbook_label' ), 10, 2 );
